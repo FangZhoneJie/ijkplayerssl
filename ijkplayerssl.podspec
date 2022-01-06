@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "ijkplayer"
+  s.name         = "ijkplayerssl"
   s.version      = "1.1.5"
   s.summary      = "ijkplayer framework."
 
