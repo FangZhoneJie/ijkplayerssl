@@ -19,7 +19,7 @@ bilibili/ijkplayer k0.8.8  IJKMediaFramework 上传到 cococapods
   s.social_media_url   = ""
   s.platform     = :ios, "13.0"
   s.source       = { :http => "https://github.com/m3u8playlist/ijkplayerssl" }
-  s.vendored_frameworks = 'IJKMediaFramework.framework'
+  s.vendored_frameworks = 'IJKMediaFrameworkWithSSL.framework'
 
   s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
   s.libraries   = "bz2", "z", "stdc++"
