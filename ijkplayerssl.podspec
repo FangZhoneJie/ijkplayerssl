@@ -3,6 +3,7 @@ Pod::Spec.new do |s|
   s.version      = '1.1.5'
   s.summary      = 'ijkplayer framework.'
   s.homepage     = 'https://github.com/m3u8playlist/ijkplayerssl'
+  s.author       = 'm3u8playlist'
   s.license      = 'MIT'
   s.platform     = :ios, '10.0'
   s.source       = { :http => 'https://github.com/m3u8playlist/ijkplayerssl' }
