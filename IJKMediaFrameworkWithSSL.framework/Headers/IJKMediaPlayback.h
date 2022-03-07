@@ -22,9 +22,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#if IJK_IOS
 #import <UIKit/UIKit.h>
-#endif
 
 typedef NS_ENUM(NSInteger, IJKMPMovieScalingMode) {
     IJKMPMovieScalingModeNone,       // No scaling
@@ -77,9 +75,7 @@ typedef NS_ENUM(NSInteger, IJKMPMovieTimeOption) {
 - (void)shutdown;
 - (void)setPauseInBackground:(BOOL)pause;
 
-#if IJK_IOS
 @property(nonatomic, readonly)  UIView *view;
-#endif
 @property(nonatomic)            NSTimeInterval currentPlaybackTime;
 @property(nonatomic, readonly)  NSTimeInterval duration;
 @property(nonatomic, readonly)  NSTimeInterval playableDuration;
@@ -105,9 +101,7 @@ typedef NS_ENUM(NSInteger, IJKMPMovieTimeOption) {
 @property (nonatomic) float playbackRate;
 @property (nonatomic) float playbackVolume;
 
-#if IJK_IOS
 - (UIImage *)thumbnailImageAtCurrentTime;
-#endif
 
 #pragma mark Notifications
 
